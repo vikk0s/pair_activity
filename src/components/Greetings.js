@@ -1,4 +1,5 @@
 import React from 'react'
+import './Components.css'
 
 const Greetings = (props) => {
     let greetings = '';
@@ -15,7 +16,7 @@ const Greetings = (props) => {
     }
 
   return (
-    <div>
+    <div className='Greetings'>
         <p>{greetings}</p>
     </div>
   )
